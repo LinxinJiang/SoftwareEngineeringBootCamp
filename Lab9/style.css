@@ -1,0 +1,120 @@
+/* For Everything */
+*{
+  box-sizing: border-box;
+}
+
+/* Margin & Padding */
+body{
+  margin: 1px;
+  padding: 5px;
+  overflow: scroll;
+
+}
+
+/* For Class */
+.header{
+  background-color: #e0e0eb;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(black, grey, #e0e0eb);
+
+}
+
+/* 3 linkes */
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a{
+  float:left;
+  display: block;
+  color:#fff;
+  text-align: center;
+  padding: 10 px 14px;
+  width: 25%;
+}
+
+/* change roll over color*/
+.topnav a:hover{
+  background-color: #ddd;
+  color: #000;
+
+}
+
+
+/* For 3 of them*/
+.row{
+  background-color: ghostwhite;
+}
+
+/*Clear floates after the colums*/
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/*Divided web page into 3 parts*/
+.column{
+  float: left;
+  width: 33.33%;
+  height: 50%;
+  padding: 15px;
+
+}
+
+/* Layout - stack on top of each other*/
+@media screen and(max-width: 600px){
+  .column{
+    width:100%;
+  }
+}
+
+/* For id */
+
+@keyframes sami{
+  from{background-color: red;}
+  to{background-color: blue;}
+}
+
+#D1{
+  color:#457893
+  font-family:sans-serif;
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  animation-name:sami;
+  animation-duration: 5s;
+}
+
+
+@keyframes sami1{
+  0% {background-color: red;}
+  25% {background-color: grey;}
+  100% {background-color: green;}
+}
+
+#D2{
+  color:#457893
+  animation-name:sami1;
+
+}
+
+#D3{
+  color:#457893
+}
+
+#opi{
+  width:50px;
+  height:50px;
+  background-color: red;
+  transition-duration:5000ms;
+  transform: matrix(-1,-0.3,0,1,0,0);
+}
+
+a:link{
+  color: red;
+
+
+}

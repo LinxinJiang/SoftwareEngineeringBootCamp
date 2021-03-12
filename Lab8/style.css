@@ -1,0 +1,90 @@
+/* For Everything */
+*{
+  box-sizing: border-box;
+}
+
+/* Margin & Padding */
+body{
+  margin: 1px;
+  padding: 5px;
+  overflow: scroll;
+
+}
+
+/* For Class */
+.header{
+  background-color: #e0e0eb;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(black, grey, #e0e0eb);
+
+}
+
+/* 3 linkes */
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a{
+  float:left;
+  display: block;
+  color:#fff;
+  text-align: center;
+  padding: 10 px 14px;
+  width: 33.33%;
+}
+
+/* change roll over color*/
+.topnav a:hover{
+  background-color: #ddd;
+  color: #000;
+
+}
+
+
+/* For 3 of them*/
+.row{
+  background-color: ghostwhite;
+}
+
+/*Clear floates after the colums*/
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/*Divided web page into 3 parts*/
+.column{
+  float: left;
+  width: 33.33%;
+  height: 50%;
+  padding: 15px;
+
+}
+
+/* Layout - stack on top of each other*/
+@media screen and(max-width: 600px){
+  .column{
+    width:100%;
+  }
+}
+
+/* For id */
+#D1{
+  font-family:fantasy;
+  color:#457893
+
+}
+
+#D2{
+  font-family:fantasy;
+  color:#457893
+
+}
+
+#D3{
+  font-family:fantasy;
+  color:#457893
+}
