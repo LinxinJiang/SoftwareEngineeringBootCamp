@@ -1,0 +1,48 @@
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a{
+  float:left;
+  display: block;
+  color:#fff;
+  text-align: center;
+  padding: 10 px 14px;
+  width: 16.66%;
+  font-size:30px
+}
+
+/* change roll over color*/
+.topnav a:hover{
+  background-color: #ddd;
+  color: #000;
+}
+
+
+
+#opi{
+  width:50px;
+  height:50px;
+  background-color: #e6f9ff;
+  transition-duration:5000ms;
+  transform: matrix(-1,-0.3,0,1,0,0);
+}
+
+#D1{
+  color:#457893;
+  font-family:sans-serif;
+  width: 300px;
+  height: 100px;
+  background-color: #e6f9ff;
+  animation-name:sami;
+  animation-duration: 5s;
+}
+
+body{
+  background-color: lightblue;
+}
+
+h2{
+  color:black
+}

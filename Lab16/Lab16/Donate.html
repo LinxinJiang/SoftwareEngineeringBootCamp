@@ -1,0 +1,80 @@
+<!Doctype HTML>
+
+<html>
+	<head>
+		<title>Donate</title>
+     <link rel="icon" type="image/jpg" href="Actual.png"> 	<!--icon-->
+		 <link href="style.css" rel="stylesheet" type="text/css"/>
+		 <script src="jquery-3.5.1.js" charset="UTF-8"></script>
+	</head>
+
+    <body>
+			<center>
+
+     <!-- header-->
+				<div class="topnav">
+						<a href="MainPage.html">Home Page</a>
+						<a href="Cat.html">Cats</a>
+						<a href="Dog.html">Dogs</a>
+						<a href="Q&A.html">Q & A </a>
+						<a href="Donate.html">Donate</a>
+						<a href="Credit.html">Credit</a>
+
+				</div>
+
+
+
+				<div class="DonateRow">
+					<!--Car img-->
+					<div class="column">
+						<br><img src="CatHand.jpeg" alt="Cat" width="465px">
+					</div>
+					<div class="column">
+
+						<br><br><br><br><br><br>
+
+
+						<form id="donteform" onsubmit="return donteToWePets();" method="post"  method="GET">
+
+							<div>
+								<center><h2>Donate for WePets</h2></center>
+								<br>
+							</div>
+
+							<div>
+								<label for="name" ><h4>Enter your name: </h4></label>
+								<input id="name" name="name" type = "text">
+							</div>
+
+							<br>
+
+							<div>
+								<label for="pNumber" ><h4>Enter yor phone number: </h4></label>
+								<input id="pNumber" name="pNumber" type = "text">
+							</div>
+
+							<br>
+
+							<div>
+								<label for="donate" ><h4>Enter the amount: </h4></label>
+								<input id="donate" name="donate" type = "text">
+							</div>
+
+							<br>
+
+							<button id="DTW" type = "button" onclick="donteToWePets()"> Submit</button>
+
+
+						</from>
+
+					</div>
+				</div>
+
+
+			</center>
+
+			<script src="script.js"></script>
+
+    </body>
+
+</html>

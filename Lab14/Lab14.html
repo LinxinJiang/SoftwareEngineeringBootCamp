@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Last time: 2/24 - 19:58-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lab14</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <center>
+
+    <h1>CUNY QCC </h1>
+    <h2>Software Eng. Micro-Credential Cohort 2p</h2>
+    <h3>Boot Camp</h3>
+    <h4>Lab#13</h4>
+    <h5>Date 02/22/2021</h5>
+    <h6>by Linxin Jiang</h6>
+  </center>
+
+
+  <div class="row">
+    <table class="content-table" >
+      <div>
+        <!--SubTitile-->
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Buy</th>
+          </tr>
+      </thead>
+
+        <!--First line-->
+        <tr>
+          <td><img src="apple.jpg" alt="apple" width="100px" height"50px"></td>
+          <td>3 Lb</td>
+          <td>$5.48</td>
+          <td><input id="apple"  name="apple" type = "text" placeholder="1"></td>
+        </tr>
+
+        <!--Second line-->
+
+        <tr>
+          <td><img src="banana.jpeg" alt="banana" width="100px" height"50px"></td>
+          <td>each</td>
+          <td>$0.20</td>
+          <td><input id="banana" name="banana" type = "text" placeholder="1"></td>
+        </tr>
+
+        <!--third line-->
+        <tr>
+          <td><img src="blueberries.jpg" alt="blueberries" width="100px" height"50px"></td>
+          <td>18oz</td>
+          <td>＄2.50</td>
+          <td><input id="blueberries" name="blueberries" type = "text" placeholder="1"></td>
+        </tr>
+
+
+        <tr class="active-row">
+          <td></td><td></td><td></td>
+          <td>
+          <button id="buy" type = "button" onclick="totalPrice()"> Submit</button>
+        </td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+  <table id="display" class="content-table">
+    <center>
+    <tr>
+      <th colspan="2"><br>C Mart # 000001</th>
+    </tr>
+
+    <tr>
+      <th colspan="2"><br>09-23 Ave</th>
+    </tr>
+
+    <tr>
+      <th colspan="2"><br>New York, New York 11342</th>
+    </tr>
+
+    <tr>
+      <th colspan="2"><br>(000)000-000</th>
+    </tr>
+
+    <tr>
+      <td>Item</td>
+      <td>Qty</td>
+      <td>Price/each</td>
+      <td>Price</td>
+      <td>Total Price</td>
+    </tr>
+
+  </center>
+
+  </table>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

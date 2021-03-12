@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lab 15</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <h1>Welcome to Ninja World</h>
+
+    <br><br>
+
+    <div class="row">
+      <div class="column1">
+        <input type="button" value="Female Ninja" onclick="showImage();"/>
+        <br>
+        <br>
+        <img id="loadingImage" src="gNinja.png" style="visibility:hidden"/>
+      </div>
+      <div class="column2">
+        <input type="button" value="Male Ninja" onclick="showImage1();"/>
+        <br>
+        <br>
+        <img id="loading" src="bNinja.png" style="visibility:hidden" />
+
+      </div>
+
+    </div>
+
+
+    <table id="display" class="content-table">
+      <div>
+        <tr>
+          <td>Your Name   </td>
+          <td>Color of belt   </td>
+          <td>Ninja Name   </td>
+          <td>Super powers   </td>
+        </tr>
+      </div>
+    </tbale>
+
+    <script src="script.js"></script>
+  </body>
+  </html>

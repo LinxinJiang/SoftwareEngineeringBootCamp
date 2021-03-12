@@ -1,0 +1,302 @@
+<!Doctype HTML>
+
+<html>
+<head>
+	<title>Lab 12</title>
+	<meta charset="uft-8">
+	<meta name="viewport" content="withd= device- withd">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<div id="cssFile1">
+		<link href="style1.css" rel="stylesheet" type="text/css"/>
+	</div>
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+
+</head>
+
+<body>
+	<img src="lab10V1.png" alt="LabBan" width="100%">
+
+
+	<nav class="black nav-extended">
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">Logo</a>
+		</div>
+
+
+
+		<div class=" nav-content">
+			<ul class="tabs tabs-transparent">
+				<li class="tab"><a class="active" href="#test">Chang</a></li>
+				<li class="tab"><a class="active" href="#test">Ida</a></li>
+				<li class="tab"><a class="active" href="#test">Linxin</a></li>
+			</ul>
+
+			<div class="topnav">
+				<button type = "button" onclick="myfunction1()"> Original</button>
+				<button type = "button" onclick="myfunction2()"> Style1</button>
+				<button type = "button" onclick="myfunction3()"> Style2</button>
+				<button type = "button" onclick="myfunction4()"> Style3</button>
+				<button type = "button" onclick="myfunction5()"> Style4</button>
+			</div>
+		</div>
+
+
+	</nav>
+
+
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col l4">
+				<div class="card">
+					<div class="card-image">
+						<img src="code1.jpg" style=" width:100%;height:200px;">
+						<span class="card-title">ChangLiu</span>
+					</div>
+					<div class="card-content">
+						<p>Hi, I am ChangLiu, and I am studing computer Sicence at ...</p>
+					</div>
+					<div class="card-action">
+						<a href="#">check out my LinkedIn</a>
+					</div>
+
+					<form class="card-content" onsubmit="return volumeOfCylinder();" method="post"  method="GET">
+
+						<div>
+							<center><h7>Volume of Cylinder</h7></center>
+						</div>
+
+						<div>
+							<label for="height" ><h7>Enter the height: </h7></label>
+							<input id="height" name="height" type = "text">
+						</div>
+
+						<div>
+							<label for="radius" ><h7>Enter the radius: </h7></label>
+							<input id="radius" name="radius" type = "text">
+						</div>
+
+						<button id="VOC" type = "button" onclick="volumeOfCylinder()"> Submit</button>
+					</from>
+
+				</div>
+
+
+
+
+			</div>
+			<div class="col l4">
+				<div class="card">
+					<div class="card-image">
+						<img src="code2.jpg" style=" width:100%;height:200px;">
+						<span class="card-title">Ida</span>
+					</div>
+					<div class="card-content">
+						<p>Hi, I am Ida, and I am studing computer Sicence at the City College of New York</p>
+					</div>
+					<div class="card-action">
+						<a href="#">check out my LinkedIn</a>
+
+						<form class="card-content" onsubmit="return results();" method="post" method="GET" >
+
+							<div>
+								<center><h7>Fortune-telling</h7></center>
+							</div>
+
+							<div>
+								<label for="name" ><h7>Name</h7></label>
+								<input id="name" name="name" type = "text">
+							</div>
+
+							<div>
+								<label for="age" ><h7>Age</h7></label>
+								<input id="age" name="age" type = "text">
+							</div>
+
+							<div>
+								<label for="yearsLater" ><h7>Do you want to know (5/10/20) years later: </h7></label>
+								<input id="yearsLater" name="yearsLater" type = "text">
+							</div>
+
+							<div>
+								<label for="dreamCity" ><h7>Enter your dearm city: </h7></label>
+								<input id="dreamCity" name="dreamCity" type = "text">
+							</div>
+
+							<div>
+								<label for="dreamJob" ><h7>Enter your dearm job title: </h7></label>
+								<input id="dreamJob" name="dreamJob" type = "text">
+							</div>
+							<button id="resu" type = "button" onclick="results()"> Submit</button>
+						</form>
+					</div>
+
+
+				</div>
+
+			</div>
+			<div class="col l4">
+				<div class="card">
+					<div class="card-image">
+						<img src="code3.jpeg" style="width:100%;height:200px;">
+						<span class="card-title">Linxin</span>
+					</div>
+					<div class="card-content">
+						<p>Hi, I am Linxin, and I am studing computer Sicence at ...</p>
+					</div>
+					<div class="card-action">
+						<a href="#">check out my LinkedIn</a>
+					</div>
+
+					<form class="card-content" onsubmit="return equation();" method="post"  method="GET">
+
+						<div>
+							<center><h7>Quadratic equation</h7></center>
+						</div>
+
+						<div>
+							<label for="aNumber" ><h7>Enter 'A': </h7></label>
+							<input id="aNumber" name="aNumber" type = "text">
+						</div>
+
+						<div>
+							<label for="bNumber" ><h7>Enter 'B': </h7></label>
+							<input id="bNumber" name="bNumber" type = "text">
+						</div>
+
+						<div>
+							<label for="cNumber" ><h7>Enter 'C': </h7></label>
+							<input id="cNumber" name="cNumber" type = "text">
+						</div>
+
+						<button id="eual" type = "button" onclick="equation()"> Submit</button>
+					</from>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<script>
+
+	function volumeOfCylinder(){
+		var height = document.getElementById('height').value;
+		var radius= document.getElementById('radius').value;
+
+		var text = Math.PI * (radius * radius) * height;
+
+		r = confirm("Do you want to continue?")
+		if(r){
+			document.getElementById("VOC").innerHTML = text;
+		}else{
+			document.getElementById("VOC").innerHTML = ("Thank you for using.");
+
+		}
+
+
+	}
+
+
+
+
+
+	function results(){
+		var name = document.getElementById('name').value;
+		var age = document.getElementById('age').value;
+		var yearsLater = document.getElementById('yearsLater').value;
+		var dreamCity = document.getElementById('dreamCity').value;
+		var dreamJob = document.getElementById('dreamJob').value;
+		var text = "Your will be a " + dreamJob + " and live in " + dreamCity + " " + yearsLater + " years later.";
+
+		r = confirm("Do you want to continue?")
+		if(r){
+			document.getElementById("resu").innerHTML = text;
+		}else{
+			document.getElementById("resu").innerHTML = ("Thank you for using.");
+
+		}
+	}
+
+	function equation(){
+		let aNumber = document.getElementById('aNumber').value;
+		let bNumber = document.getElementById('bNumber').value;
+		let cNumber = document.getElementById('cNumber').value;
+		let pResults = (-bNumber + Math.sqrt((bNumber * bNumber) - (4.0 * aNumber * cNumber))) / (2.0 * aNumber);
+		let nResults = (-bNumber - Math.sqrt((bNumber * bNumber) - (4.0 * aNumber * cNumber))) / (2.0 * aNumber);
+
+		let text = "The answer is " + pResults + " and " + nResults;
+
+		c = confirm("Do you want to continue?")
+		if(c){
+			document.getElementById("eual").innerHTML = text;
+		}else{
+			document.getElementById("eual").innerHTML = ("Thank you for using.");
+		}
+	}
+
+
+	function myfunction1(){
+		document.getElementById("cssFile1").innerHTML = '<link href="style1.css" rel="stylesheet" type="text/css"/>';
+	}
+
+	function myfunction2(){
+		document.getElementById("cssFile1").innerHTML = '<link href="style2.css" rel="stylesheet" type="text/css"/>';
+	}
+
+	function myfunction3(){
+		document.getElementById("cssFile1").innerHTML = '<link href="style3.css" rel="stylesheet" type="text/css"/>';
+	}
+
+	function myfunction4(){
+		document.getElementById("cssFile1").innerHTML = '<link href="style4.css" rel="stylesheet" type="text/css"/>';
+	}
+
+	function myfunction5(){
+		document.getElementById("cssFile1").innerHTML = '<link href="style5.css" rel="stylesheet" type="text/css"/>';
+	}
+
+	</script>
+
+
+	<footer class="black page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text"> Group 5</h5>
+					<p class="grey-text text-lighten-4">About our website</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<ul>
+
+						<li><a class="grey-text text-lighten-3" href="#!">about us</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">content1</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">content2</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copyright">
+			<div class="container">
+				© 2021 Copyright
+				<a class="grey-text text-lighten-4 right" href="#!">policy</a>
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+
+
+</html>

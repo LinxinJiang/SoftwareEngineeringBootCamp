@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="background-color:grey;">
+
+  <center>
+    <br>
+    <h1>
+      Lab : JQuery Animation
+    </h1>
+    <h3> Lab:17 </h3>
+    <hr>
+    <br>
+
+
+  <table width="65%">
+    <tr>
+      <td align="center">
+        <p> Here, I will use JQuery to manipulate the CSS and make an animation to the box. Click the button to try it!</p>
+      </td>
+    </tr>
+  </table>
+    <br><br><br>
+
+<button id="move">Move!</button>
+<button id="op">Change Opacity!</button>
+<button id="cir">Into a Circle!</button>
+<button id="siz">Change the Size!</button>
+
+<br><br><br>
+
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+<br>
+<br>
+<br>
+</center>
+
+<script>
+$(document).ready(function(){
+  $("#move").click(function(){
+    $("div").animate({left: '250px'});
+  });
+
+  $("#opa").click(function(){
+    $("div").fadeTo( "fast", Math.random() );
+  });
+
+  $("#cir").click(function(){
+    $("div").animate({
+    "border-radius": "50%"
+  }, 500);
+  });
+
+  $("#siz").click(function(){
+    $("div").animate({
+    "border-radius": "50%"
+  }, 500);
+  });
+
+
+
+});
+</script>
+
+</body>
+</html>
