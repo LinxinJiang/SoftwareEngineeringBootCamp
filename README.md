@@ -18,4 +18,12 @@ Only list all the new content when I was working on the labs<br />
 #Lab14: Shopping Cart & Receipt<br />
 #Lab15: Ninja Game (User input) | Window.prompt()<br />
 #Lab16: Project1 Advanse | HTML, CSS, JavaScript, Jquery <br /> 
-#Lab17:JQuery Animation
+#Lab17: JQuery Animation
+
+Project: 
+  Group Project:
+              Python Games 
+              Hacked WebSite
+  Project:
+              HOME PAGE
+              WePets(Animal Adoption)
