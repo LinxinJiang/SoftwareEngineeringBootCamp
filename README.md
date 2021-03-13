@@ -7,7 +7,7 @@ Only list all the new content when I was working on the labs<br />
 #Lab3: Lists | order list and unordered list<br />
 #Lab4: Table<br />
 #Lab5: Favicon & Background Color<br />
-#(Profile)Lab6: Color Table | use color in a table<br />
+#Lab6: Color Table | use color in a table<br />
 #Lab7: Index Page | List all the Labs & Projects, icon<br />
 #Lab8: CSS Practice | Responsive Header<br />
 #Lab9: animation<br />
@@ -17,4 +17,5 @@ Only list all the new content when I was working on the labs<br />
 #Lab13: Age Calculator<br />
 #Lab14: Shopping Cart & Receipt<br />
 #Lab15: Ninja Game (User input) | Window.prompt()<br />
-#(Project)Lab16: Project1 Advanse | HTML, CSS, JavaScript, Jquery <br /> 
+#Lab16: Project1 Advanse | HTML, CSS, JavaScript, Jquery <br /> 
+#Lab17:JQuery Animation
