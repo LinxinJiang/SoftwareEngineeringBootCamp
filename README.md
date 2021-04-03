@@ -20,10 +20,10 @@ Only list all the new content when I was working on the labs<br />
 #Lab16: Project1 Advanse | HTML, CSS, JavaScript, Jquery <br /> 
 #Lab17: JQuery Animation
 
-Project: <br />
-  Group Project:<br />
+##Project: <br />
+  ###Group Project:<br />
               Python Games <br />
               Hacked WebSite<br />
-  Project:<br />
+  ###Project:<br />
               HOME PAGE<br />
               WePets(Animal Adoption)<br />
