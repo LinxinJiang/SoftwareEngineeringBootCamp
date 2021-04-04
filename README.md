@@ -1,4 +1,13 @@
 # SoftwareEngineeringBootCamp
+* [ ] 100-hour online development environment over an intensive five-week time frame 
+* [ ] Built both static and dynamic websites, and programs. 
+* [ ] Allow user to fill out or give input, and gave back response(HTML, CSS, JavaScript, jQuery, Python). 
+* [ ] Experienced with SQL
+
+## Gif Walkthrough
+
+Here's a walkthrough of implemented user stories:
+<img src="http://g.recordit.co/TRq1OfRAiI.gif"><br>
 
 Only list all the new content when I was working on the labs<br />
 
@@ -20,10 +29,10 @@ Only list all the new content when I was working on the labs<br />
 #Lab16: Project1 Advanse | HTML, CSS, JavaScript, Jquery <br /> 
 #Lab17: JQuery Animation
 
-##Project: <br />
-  ###Group Project:<br />
+
+  ### Group Project:<br />
               Python Games <br />
               Hacked WebSite<br />
-  ###Project:<br />
+  ### Project:<br />
               HOME PAGE<br />
               WePets(Animal Adoption)<br />
