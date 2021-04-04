@@ -5,9 +5,8 @@
 * [ ] Experienced with SQL
 
 ## Gif Walkthrough
-
-Here's a walkthrough of implemented user stories:
 <img src="http://g.recordit.co/TRq1OfRAiI.gif"><br>
+
 
 Only list all the new content when I was working on the labs<br />
 
