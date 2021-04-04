@@ -8,7 +8,7 @@
 
 ## Gif Walkthrough
 <img src="http://g.recordit.co/TRq1OfRAiI.gif"><br>
-
+<img src="http://g.recordit.co/rLQUCKLv4m.gif"><br>
 
 Only list all the new content when I was working on the labs<br />
 
