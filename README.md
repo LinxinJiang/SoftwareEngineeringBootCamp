@@ -9,6 +9,7 @@
 ## Gif Walkthrough
 
 Profile: https://linxinjiang.github.io/SoftwareEngineeringBootCamp/Profile.gif
+<br>
 WePets(Animal Adoption): https://linxinjiang.github.io/SoftwareEngineeringBootCamp/WePets.gif
 
 Only list all the new content when I was working on the labs<br />
