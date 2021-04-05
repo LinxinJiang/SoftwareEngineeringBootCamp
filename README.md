@@ -7,8 +7,9 @@
 * [ ] Experienced with SQL
 
 ## Gif Walkthrough
-<img src="http://g.recordit.co/TRq1OfRAiI.gif"><br>
-<img src="http://g.recordit.co/rLQUCKLv4m.gif"><br>
+
+Profile: https://linxinjiang.github.io/SoftwareEngineeringBootCamp/Profile.gif
+WePets(Animal Adoption): https://linxinjiang.github.io/SoftwareEngineeringBootCamp/WePets.gif
 
 Only list all the new content when I was working on the labs<br />
 
